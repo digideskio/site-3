@@ -33,7 +33,7 @@
   text-align: right;
   font-size: 13px;
   line-height: 1.45em;
-  background: #eeeeee url('/images/noise.png?1377982592') top left !important;
+  background: #eeeeee url('/images/noise.png?1377987143') top left !important;
   border-right: 1px solid #fafafa !important;
   -webkit-box-shadow: #f3f3f3 -1px 0 inset;
   -moz-box-shadow: #f3f3f3 -1px 0 inset;
@@ -113,7 +113,7 @@ html .gist .gist-file .gist-meta {
   border: 1px solid #f3f3f3 !important;
   color: #999999;
   font-size: .7em !important;
-  background: #eeeeee url('/images/noise.png?1377982592') top left;
+  background: #eeeeee url('/images/noise.png?1377987143') top left;
   border: 1px solid #e1e1e1 !important;
   border-top: 1px solid white !important;
   line-height: 1.5em;
@@ -152,7 +152,7 @@ html .gist .gist-file .gist-meta a[href*=raw] {
 
 /* line 117, ../../../sass/syntax/_highlight.scss */
 pre {
-  background: white url('/images/noise.png?1377982592') top left;
+  background: white url('/images/noise.png?1377987143') top left;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
@@ -217,7 +217,7 @@ p pre code, li pre code {
   padding: .8em;
   overflow-x: auto;
   line-height: 1.45em;
-  background: white url('/images/noise.png?1377982592') top left !important;
+  background: white url('/images/noise.png?1377987143') top left !important;
   color: #222222 !important;
   /* Comment */
   /* Comment.Multiline */
