@@ -1,5 +1,19 @@
-.bs-footer {
-	margin-top: 30px;
-	padding-top: 20px;
-	border-top: 1px solid $footer-top-border;
+// Footer section
+.site-footer {
+
+	.social {
+		background-color: $bg-blue-gray;
+		//height: 100px;
+	}
+
+	.info {
+		padding: 10px 0;
+		background-color: $bg-dark-blue-gray;	
+
+		p {
+			margin: auto;
+			color: $text-light-gray;
+		}
+
+	}
 }
