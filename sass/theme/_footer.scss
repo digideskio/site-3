@@ -2,8 +2,68 @@
 .site-footer {
 
 	.social {
-		height: 300px;
 		background-color: $bg-dark-blue-gray;
+		text-align: center;
+
+		ul, ol {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.icons {
+			overflow: hidden;
+			display: inline-block;
+			padding: 55px 0;
+
+			.link {
+				float: left;
+				padding-right: 25px;
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				i {
+					color: #666;
+
+					&:hover {
+						color: #888;
+					}
+				}
+
+				@media screen and (max-width: 480px) {
+					i {
+						font-size: 2em;
+					}
+				}
+
+				// .facebook {
+				// 	color: #3B5998;
+				// } 
+
+				// .linkedin {
+				// 	color: #007BB6
+				// }
+
+				// .twitter {
+				// 	color: #00ACED;
+				// }
+
+				// .google-plus {
+				// 	color: #DD4B39;
+				// }
+
+				// .github {
+				// 	color: #888;
+				// }
+
+				// .instagram {
+				// 	color: #517FA4;
+				// }
+
+			}
+		}
 	}
 
 	.info {
